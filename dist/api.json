@@ -4,29 +4,38 @@
     "separator": "*"
   },
   "constructor": "M.plugin.ViewHistory",
-  "parameters": [{
-    "type": "object",
-    "properties": [{
-      "type": "enum",
-      "name": "position",
-      "position": 0,
-      "possibleValues": ["TL", "TR", "BR", "BL"]
-    }]
-  }],
+  "parameters": [
+    {
+      "type": "object",
+      "properties": [
+        {
+          "type": "enum",
+          "name": "position",
+          "position": 0,
+          "possibleValues": [
+            "TL",
+            "TR",
+            "BR",
+            "BL"
+          ]
+        }
+      ]
+    }
+  ],
   "files": {
     "ol": {
       "scripts": "viewhistory.ol.min.js",
-      "styles": "viewhistory.ol.min.js"
+      "styles": "viewhistory.ol.min.css"
     }
   },
   "metadata": {
     "name": "ViewHistory",
-    "description": "Navigation among map views",
-    "text": "Navigation among previous and next map views",
+    "description": "Navegación entre vistas",
+    "text": "Permite navegar en el historial de resoluciones del mapa",
     "version": "1.0.0",
-    "date": "",
+    "date": "Diciembre, 2019",
     "author": "",
-    "org": "",
+    "org": "Instituto de Cartografía y Estadística. Junta de Andalucía",
     "tags": "mapea,plugin",
     "icon": "./facade/assets/icons/icons.svg"
   }
