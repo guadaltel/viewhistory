@@ -4,28 +4,24 @@
     "separator": "*"
   },
   "constructor": "M.plugin.ViewHistory",
-  "parameters": [
-    {
-      "type": "object",
-      "properties": [
-        {
-          "type": "enum",
-          "name": "position",
-          "position": 0,
-          "possibleValues": [
-            "TL",
-            "TR",
-            "BR",
-            "BL"
-          ]
-        }
+  "parameters": [{
+    "type": "object",
+    "properties": [{
+      "type": "enum",
+      "name": "position",
+      "position": 0,
+      "possibleValues": [
+        "TL",
+        "TR",
+        "BR",
+        "BL"
       ]
-    }
-  ],
+    }]
+  }],
   "files": {
     "ol": {
-      "scripts": "viewhistory.ol.min.js",
-      "styles": "viewhistory.ol.min.css"
+      "scripts": ["viewhistory.ol.min.js"],
+      "styles": ["viewhistory.ol.min.css"]
     }
   },
   "metadata": {
