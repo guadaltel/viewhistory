@@ -33,6 +33,7 @@
     "author": "",
     "org": "Instituto de Cartografía y Estadística. Junta de Andalucía",
     "tags": "mapea,plugin",
-    "icon": "./facade/assets/icons/icons.svg"
+    "icon": "./facade/assets/icons/icons.svg",
+    "centralized": true
   }
 }
