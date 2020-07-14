@@ -14,9 +14,6 @@ Plugin que permite navegar entre las vistas visitadas del mapa (retrocediendo y 
  <link href="../../plugins/viewhistory/viewhistory.ol.min.css" rel="stylesheet" />
  <script type="text/javascript" src="../../plugins/viewhistory/viewhistory.ol.min.js"></script>
 ```
-## Eventos
-
-## Otros métodos
 
 ## Ejemplos de uso
 
